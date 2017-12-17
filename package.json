@@ -13,17 +13,26 @@
     "eject": "react-native-scripts eject",
     "android": "react-native-scripts android",
     "ios": "react-native-scripts ios",
-    "test": "node node_modules/jest/bin/jest.js --watch"
+    "test": "node node_modules/jest/bin/jest.js --watch",
+    "postgraph": "postgraphql --watch --connection postgres://natan:rahasia@localhost:5432/church --host 0.0.0.0"
   },
   "jest": {
     "preset": "jest-expo"
   },
   "dependencies": {
+    "apollo-client": "^2.0.4",
+    "apollo-client-preset": "^1.0.5",
     "expo": "^23.0.6",
+    "graphql": "^0.11.7",
+    "graphql-tag": "^2.6.0",
+    "prop-types": "^15.6.0",
     "react": "16.0.0",
+    "react-apollo": "^2.0.4",
     "react-native": "0.50.3",
     "react-native-elements": "^0.18.4",
     "react-native-keyboard-spacer": "^0.4.1",
+    "react-native-material-dropdown": "^0.6.1",
+    "react-native-phone-call": "^1.0.4",
     "react-native-vector-icons": "^4.4.2",
     "react-navigation": "^1.0.0-beta.21",
     "react-redux": "^5.0.6",
